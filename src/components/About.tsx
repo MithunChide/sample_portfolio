@@ -45,7 +45,7 @@ export default function About() {
             About <span className="gradient-text">Me</span>
           </h2>
           <div className="h-1 w-20 bg-indigo-600 mx-auto mt-4 rounded-full" />
-          <p className="text-slate-600 dark:text-slate-350 mt-4 text-base md:text-lg">
+          <p className="text-slate-600 dark:text-slate-300 mt-4 text-base md:text-lg">
             A results-oriented Frontend Developer dedicated to standard engineering, speed, and accessible experiences.
           </p>
         </div>
@@ -59,11 +59,11 @@ export default function About() {
               My Professional Philosophy
             </h3>
             
-            <p className="text-slate-600 dark:text-slate-350 leading-relaxed text-base">
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-base">
               I am a Frontend Developer with 4+ years building scalable, accessible React.js and TypeScript applications at Epsilon (Publicis Groupe) for global enterprise clients like PayPal. My strength lies in bridging the gap between design concepts and production-grade code.
             </p>
 
-            <p className="text-slate-600 dark:text-slate-350 leading-relaxed text-base">
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-base">
               I love engineering clean global states, building performance-focused custom hooks, and establishing automated testing workflows. By prioritizing semantic HTML, ARIA compliance, and optimizing bundle splits, I ensure that applications load incredibly fast and are accessible to everyone.
             </p>
 
@@ -103,7 +103,7 @@ export default function About() {
                   <h4 className="text-base font-bold text-slate-800 dark:text-slate-200">
                     {strength.title}
                   </h4>
-                  <p className="text-xs text-slate-500 dark:text-slate-450 leading-relaxed">
+                  <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
                     {strength.description}
                   </p>
                 </div>

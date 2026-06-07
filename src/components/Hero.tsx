@@ -52,7 +52,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-slate-600 dark:text-slate-350 max-w-xl text-base md:text-lg leading-relaxed mx-auto lg:mx-0"
+            className="text-slate-600 dark:text-slate-300 max-w-xl text-base md:text-lg leading-relaxed mx-auto lg:mx-0"
           >
             I specialize in crafting pixel-perfect, accessible (WCAG 2.1 AA) interfaces at scale. Experienced in optimizing web vitals, building robust custom design systems, and engineering global state architectures.
           </motion.p>
@@ -74,7 +74,7 @@ export default function Hero() {
 
             <a
               href="#contact"
-              className="w-full sm:w-auto px-7 py-3.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 hover:bg-slate-100 dark:hover:bg-slate-850 font-semibold flex items-center justify-center text-slate-700 dark:text-slate-250 transition-all cursor-pointer"
+              className="w-full sm:w-auto px-7 py-3.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 hover:bg-slate-100 dark:hover:bg-slate-800 font-semibold flex items-center justify-center text-slate-700 dark:text-slate-300 transition-all cursor-pointer"
             >
               <span>Contact Me</span>
             </a>

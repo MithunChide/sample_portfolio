@@ -51,7 +51,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
-    
+
     setStatus("sending");
     // Simulate sending message
     setTimeout(() => {
@@ -71,7 +71,7 @@ export default function Contact() {
     {
       icon: <Mail className="w-5 h-5 text-purple-500" />,
       label: "Email Me",
-      value: "mithunchide29@gmail.com",
+      value: "mithunchide03@gmail.com",
       href: "mailto:mithunchide29@gmail.com"
     },
     {
@@ -85,7 +85,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 relative overflow-hidden bg-white dark:bg-[#090d16]">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        
+
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
@@ -99,13 +99,13 @@ export default function Contact() {
 
         {/* Content Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 max-w-6xl mx-auto items-start">
-          
+
           {/* Left Block: Contact Info (5 cols) */}
           <div className="lg:col-span-5 space-y-6">
             <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100">
               Contact Information
             </h3>
-            
+
             <p className="text-slate-600 dark:text-slate-355 leading-relaxed text-sm">
               Feel free to reach out directly via phone or email, or connect with me on professional networks. I typically reply within 24 hours.
             </p>
@@ -228,7 +228,7 @@ export default function Contact() {
               <div className="space-y-1.5">
                 <label htmlFor="message" className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
                   Your Message *
-                  </label>
+                </label>
                 <textarea
                   id="message"
                   name="message"
